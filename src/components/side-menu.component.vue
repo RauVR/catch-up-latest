@@ -1,5 +1,5 @@
 <template>
-  <pv-sidebar v-model:visible="visible">
+    <pv-sidebar v-bind:visible="visible" v-on:update:visible="val => visible = val">
     <div v-for="source in sources" class="m-4">
       <div @click="onSourceSelected(source)" class="flex align-content-start flex-wrap">
         <span class="flex align-items-center justify-content-center mr-2"><pv-avatar :image="source.urlToLogo" shape="circle" :aria-label="source.name"></pv-avatar></span>
