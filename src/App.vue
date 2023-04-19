@@ -1,5 +1,6 @@
 <template>
   <div class="w-full">
+
     <div>
       <pv-menubar class="sticky bg-primary">
         <template #start>
@@ -11,10 +12,11 @@
         </template>
       </pv-menubar>
     </div>
+
     <div>
-    <main-content v-if="errors" :articles="articles"></main-content>
-    <unavailable-content v-else :errors="errors"></unavailable-content>
-  </div>
+      <main-content v-if="errors" :articles="articles"></main-content>
+      <unavailable-content v-else :errors="errors"></unavailable-content>
+    </div>
     <footer-content/>
   </div>
 </template>
