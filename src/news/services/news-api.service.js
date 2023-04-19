@@ -23,3 +23,12 @@ export class NewsApiService {
 // ARTICLES ->    https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=API_KEY
 
 
+// apiKey ->    UVSe7kzPdAzbHaAtaAcKAgrl
+
+// un solo atributo     https://api.bestbuy.com/v1/stores(region=ut)?format=json&show=storeId,city,region&apiKey=YourAPIKey
+// cualquier atributo   https://api.bestbuy.com/v1/products(wifiReady=true|wifiBuiltIn=true)?format=json&show=sku,name,salePrice&apiKey=YourAPIKey
+// multiples atributos  https://api.bestbuy.com/v1/products(categoryPath.id=abcat0901005&color%20in(white,bisque,stainless-steel))?format=json&show=sku,name,salePrice&apiKey=YourAPIKey
+// valor presente       https://api.bestbuy.com/v1/products(categoryPath.id=abcat0502000&driveCapacityGb=*)?format=json&show=sku,name,salePrice&apiKey=YourAPIKey
+// palabra clave        https://api.bestbuy.com/v1/products(search=oven&search=stainless&search=steel)?format=json&show=sku,name,salePrice&apiKey=YourAPIKey
+
+
