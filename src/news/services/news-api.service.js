@@ -18,3 +18,8 @@ export class NewsApiService {
         return this.logoApi.getUrlToLogo(source);
     }
 }
+
+// SOURCES  ->    https://newsapi.org/v2/top-headlines/sources?apiKey=API_KEY
+// ARTICLES ->    https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=API_KEY
+
+
